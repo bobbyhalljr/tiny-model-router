@@ -9,8 +9,9 @@ npx tsx router.ts
 
 Example output is in `output.txt`. All inputs are made up. This is a small teaching model, not any vendor's implementation.
 
-Write-up: SUBSTACK_URL
-
 MIT, Bobby Hall Jr
 
-Read the write-up on Dev.to: https://dev.to/bobbyhalljr/google-launched-the-gemini-agent-lets-build-a-tiny-model-router-in-typescript-f5
+## Write-up
+
+- Dev.to: https://dev.to/bobbyhalljr/google-launched-the-gemini-agent-lets-build-a-tiny-model-router-in-typescript-f5
+- Substack: https://bobbyhalljr.substack.com/p/google-launched-the-gemini-agent

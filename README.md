@@ -12,3 +12,5 @@ Example output is in `output.txt`. All inputs are made up. This is a small teach
 Write-up: SUBSTACK_URL
 
 MIT, Bobby Hall Jr
+
+Read the write-up on Dev.to: https://dev.to/bobbyhalljr/google-launched-the-gemini-agent-lets-build-a-tiny-model-router-in-typescript-f5

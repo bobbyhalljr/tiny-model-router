@@ -1,0 +1,14 @@
+tiny-model-router demo
+[RUN]    tag-email         mini $0.0008  cheapest model that fits (3 fit)
+[RUN]    draft-reply       mid $0.0180  cheapest model that fits (2 fit)
+[RUN]    contract-review   big $2.7000  cheapest model that fits (1 fit)
+[PAUSED] summarize-thread  mid $0.1200  cap $0.1 would be hit (spent $0.0188)
+[RUN]    quick-fix         big $0.0150  user override
+[REJECT] translate         override "gpt-x" is not a known model
+[PAUSED] second-review     big $2.7000  cap $3 would be hit (spent $2.7000)
+
+raise legal cap to $6, resume paused work
+[PAUSED] summarize-thread  mid $0.1200  cap $0.1 would be hit (spent $0.0338)
+[RUN]    second-review     big $2.7000  cheapest model that fits (1 fit)
+
+spent: { support: 0.0338, legal: 5.4 }

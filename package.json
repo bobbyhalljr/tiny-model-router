@@ -1,0 +1,10 @@
+{
+  "name": "tiny-model-router",
+  "version": "1.0.0",
+  "description": "Tiny TypeScript model router. Picks the cheapest model that fits each task, honors overrides, and pauses work at a per-project spend cap. No API key. No network.",
+  "main": "router.ts",
+  "scripts": { "start": "tsx router.ts", "typecheck": "tsc --noEmit" },
+  "author": "Bobby Hall Jr",
+  "license": "MIT",
+  "devDependencies": { "@types/node": "^22.10.0", "tsx": "^4.19.2", "typescript": "^5.7.2" }
+}
